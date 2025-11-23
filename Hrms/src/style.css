@@ -1,0 +1,237 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+    min-height: 100vh;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+h2 {
+  margin-bottom: 0.5em;
+}
+
+div {
+  padding: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+  padding: 0.5em 1em;
+  margin-left: 0.5em;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+input, select {
+  padding: 0.5em;
+  margin: 0.2em 0.5em 0.5em 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+nav {
+  padding: 1em;
+  background-color: #007bff;
+}
+
+nav a {
+  color: white;
+  margin-right: 1em;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  margin: auto;
+  background-color:rgb(0, 72, 255);
+  margin-top: 0px;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.teams-con{
+    display: flex;
+    min-width: 100vw;
+    min-height: 90vh;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+/* style.css */
+
+/* Global Reset & Body */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #333;
+}
+
+/* Common container for all pages */
+.page-container {
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+/* Headings */
+.page-container h2 {
+  margin-bottom: 20px;
+  color: #444;
+}
+
+/* Input fields */
+.page-container input,
+.page-container select {
+  width: 90%;
+  padding: 10px 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1em;
+}
+
+/* Buttons */
+.page-container button {
+  padding: 10px 20px;
+  margin: 10px 5px 0 0;
+  border: none;
+  border-radius: 6px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s;
+}
+
+.page-container button:hover {
+  background-color: #45a049;
+}
+
+/* Lists */
+.page-container ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.page-container li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  border-bottom: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Delete buttons in lists */
+.page-container li button {
+  background-color: #e74c3c;
+  margin: 0;
+}
+
+.page-container li button:hover {
+  background-color: #c0392b;
+}
+
+/* Input + Button wrapper for forms */
+.input-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
